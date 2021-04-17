@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, ActivityIndicator, FlatList,Dimensions,Image } from 'react-native';
-import axios from 'axios'
+import axios from 'axios';
 
 const {height, width} = Dimensions.get('window')
 
